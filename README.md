@@ -41,6 +41,7 @@ Tested with
 on the master and it works.
 
 Now all that's left to do is to make the directories for the salt-states on the master VM, I've decided to make a separate folder for each application to keep them somewhat organized, installation and configurations in the same folder.
+
 ![Tree](https://raw.githubusercontent.com/Jimitesti/h7moduli/main/Pictures/tree.png)
 ```YAML
 /srv/salt/mariadb/init.sls
@@ -64,7 +65,9 @@ phpmyadmin:
   pkg.installed
 ````
 And there we have the basic LAMP-stack installed with phpmyadmin aswell.
+
 ![Test](https://raw.githubusercontent.com/Jimitesti/h7moduli/main/Pictures/test.png)
+
 Tested this on my debian minion and it successfully installed everything, now everything that's left is to configure.
 I don't know who needs to use it but it's public for anyone to use, I'm using it myself just to learn PHP.
 
