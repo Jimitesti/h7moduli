@@ -72,5 +72,7 @@ Tested this on my debian minion and it successfully installed everything, now ev
 I don't know who needs to use it but it's public for anyone to use, I'm using it myself just to learn PHP.
 
 To do:
+
 Configurations
+
 Make some test databases for MariaDB with salt states.
